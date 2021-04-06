@@ -1,0 +1,8 @@
+Tommy Geiger (tgeiger3)
+
+Build & run:
+	gcc -w -o rps rps.c
+	./rps Alice server [port]
+	./rps Bob client [addr]:[port]
+
+The program accepts exactly "rock", "paper" or "scissors" as a move, else an error will be thrown.
