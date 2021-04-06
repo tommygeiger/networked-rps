@@ -1,6 +1,7 @@
 # Networked Rock-Paper-Scissors
 
 Rock-paper-scissors implemented using sockets and TCP handshake. The handshake works as follows:
+
 	The client, after successfully connecting to the server
 		1. sends their player_name
 		2. calls recv to receive servers player_name
@@ -9,7 +10,7 @@ Rock-paper-scissors implemented using sockets and TCP handshake. The handshake w
 		2. sends their player_name
 
 
-#To run:
+## To run:
 ```
 gcc -w -o rps rps.c
 ./rps Alice server [port]
