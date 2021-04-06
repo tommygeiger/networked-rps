@@ -2,12 +2,12 @@
 
 Rock-paper-scissors implemented using sockets and TCP handshake. The handshake works as follows:
 
-	The client, after successfully connecting to the server
-		1. sends their player_name
-		2. calls recv to receive servers player_name
-	The server, after successfully accepting a connection
-		1. calls recv to receive client player_name
-		2. sends their player_name
+The client, after successfully connecting to the server
+	1. sends their player_name
+	2. calls recv to receive servers player_name
+The server, after successfully accepting a connection
+	1. calls recv to receive client player_name
+	2. sends their player_name
 
 
 ## To run:
