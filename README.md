@@ -1,6 +1,6 @@
 # Networked Rock-Paper-Scissors
 
-Text based rock-paper-scissors implemented in C using sockets over TCP.
+Text based rock-paper-scissors over TCP using sockets in C.
 
 ## To compile & run:
 ```
