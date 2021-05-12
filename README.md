@@ -10,4 +10,4 @@ gcc -w -o rps rps.c
 ./rps Alice server [port]
 ./rps Bob client [addr]:[port]
 ```
-...where "Alice" and "Bob" are the names of each player. The program accepts exactly "rock", "paper" or "scissors" as valid moves. Use `localhost` as addr to test locally.
+...where "Alice" and "Bob" are the names of each player. The program accepts exactly "rock", "paper" or "scissors" as valid moves. Use `localhost` as addr to test locally, or play with a friend using their IP addess.
